@@ -146,6 +146,13 @@ a:hover { color: var(--primary-2); }
   gap: 0.85rem;
   margin-top: 1.4rem;
 }
+.person-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
 .button {
   display: inline-flex;
   align-items: center;
