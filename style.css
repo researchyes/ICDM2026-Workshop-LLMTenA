@@ -13,6 +13,17 @@
   --content: 1120px;
 }
 
+.person-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.person-link:hover h3 {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
