@@ -141,12 +141,14 @@ a:hover { color: var(--primary-2); }
   padding: 14px 18px;
   text-decoration: none;
   border-radius: 8px;
-  background: #f8f8f8;
-  transition: background 0.2s ease;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .pc-member:hover {
-  background: #eeeeee;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .pc-member strong {
