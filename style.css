@@ -126,6 +126,39 @@ a:hover { color: var(--primary-2); }
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
+
+.pc-member-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 700px;
+}
+
+.pc-member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #f8f8f8;
+  transition: background 0.2s ease;
+}
+
+.pc-member:hover {
+  background: #eeeeee;
+}
+
+.pc-member strong {
+  font-size: 1.05rem;
+  color: #222;
+}
+
+.pc-member span {
+  color: #666;
+  font-size: 0.95rem;
+}
+
 .hero-panel {
   padding: 1.6rem 1.5rem;
 }
