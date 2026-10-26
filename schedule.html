@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Program for the LLMTenA Workshop at ICDM 2026, November 15, 2026.">
   <title>Program · LLMTenA</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,13 +14,13 @@
         <div class="brand-mark">LT</div>
         <div class="brand-text">
           <div class="eyebrow">ICDM 2026 Workshop</div>
-          <strong>LLM for Tensor Analysis & Tensor for LLM Advancement</strong>
+          <strong>LLM for Tensor Analysis &amp; Tensor for LLM Advancement</strong>
         </div>
       </a>
-      <nav class="nav">
+      <nav class="nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="cfp.html">Call for Papers</a>
-        <a href="schedule.html">Program</a>
+        <a href="schedule.html" aria-current="page">Program</a>
       </nav>
     </div>
   </header>
@@ -29,8 +30,9 @@
       <div class="container">
         <div class="card">
           <span class="kicker">Workshop Program</span>
-          <h1>Draft schedule</h1>
-          <p class="muted">Use this page once talks, panels, and paper sessions are confirmed.</p>
+          <h1>LLMTenA Workshop Program</h1>
+          <p><strong>Sunday, November 15, 2026</strong> · 13:30–18:00</p>
+          <p class="muted">All times are in China Standard Time (UTC+8). Three invited talks and four paper presentations. Program subject to updates.</p>
         </div>
       </div>
     </section>
@@ -41,61 +43,85 @@
           <table>
             <thead>
               <tr>
-                <th>Time</th>
-                <th>Session</th>
-                <th>Details</th>
+                <th scope="col">Time (UTC+8)</th>
+                <th scope="col">Session</th>
+                <th scope="col">Details</th>
               </tr>
             </thead>
             <tbody>
+              <tr><th colspan="3" scope="colgroup">Session I · 13:30–15:30</th></tr>
               <tr>
-                <td>{{09:00–09:10}}</td>
-                <td>Opening remarks</td>
-                <td>{{Chair names}}</td>
+                <td>13:30–13:40</td>
+                <td>Opening Remarks</td>
+                <td>Workshop Organizers</td>
               </tr>
               <tr>
-                <td>{{09:10–10:00}}</td>
-                <td>Keynote 1</td>
-                <td>{{Speaker name, affiliation, title}}</td>
+                <td>13:40–14:25</td>
+                <td><strong>Invited Talk 1</strong></td>
+                <td>Speaker and title: To be announced</td>
               </tr>
               <tr>
-                <td>{{10:00–10:30}}</td>
-                <td>Paper session A</td>
-                <td>{{Talk titles or paper IDs}}</td>
+                <td>14:25–15:10</td>
+                <td><strong>Invited Talk 2</strong></td>
+                <td>Speaker and title: To be announced</td>
               </tr>
               <tr>
-                <td>{{10:30–11:00}}</td>
-                <td>Coffee break</td>
-                <td>{{Optional note}}</td>
+                <td>15:10–15:30</td>
+                <td>Paper Presentation<br><small>S21201</small></td>
+                <td><strong>TensorRecover: Recovering Tensorized Low-Rank Language Models</strong><br>
+                  <span class="muted">Guanyi Fan, Tongkai Ji, and Wei Dai</span></td>
               </tr>
               <tr>
-                <td>{{11:00–12:00}}</td>
-                <td>Panel / keynote 2</td>
-                <td>{{Details}}</td>
-              </tr>
-              <tr>
-                <td>{{12:00–13:30}}</td>
-                <td>Lunch break</td>
+                <td>15:30–15:50</td>
+                <td><strong>Coffee Break</strong></td>
                 <td></td>
               </tr>
+              <tr><th colspan="3" scope="colgroup">Session II · 15:50–18:00</th></tr>
               <tr>
-                <td>{{13:30–15:00}}</td>
-                <td>Paper session B / posters</td>
-                <td>{{Details}}</td>
+                <td>15:50–16:10</td>
+                <td>Paper Presentation<br><small>S21202</small></td>
+                <td><strong>LLM-Elicited Constraint Priors for Reconstructing Physical Field Tensors</strong><br>
+                  <span class="muted">Tianrui Chen, Siyuan Li, Panqi Chen, Yifan Sun, Mingjie Shao, and Lei Cheng</span></td>
               </tr>
               <tr>
-                <td>{{15:00–15:15}}</td>
-                <td>Closing</td>
-                <td>{{Best paper / next steps}}</td>
+                <td>16:10–16:30</td>
+                <td>Paper Presentation<br><small>S21204</small></td>
+                <td><strong>Co-Activation Predicts Functional Coherence: Pairwise Fusion for Compression in Mixture-of-Experts</strong><br>
+                  <span class="muted">Evgeny Bessonnitsyn, Konstantin Pakulnevich, Marina Frolova, Ivan Shchukin, Timur Gabbasov, Aleksandr Ustinov, and Sergey Muravyov</span></td>
+              </tr>
+              <tr>
+                <td>16:30–17:15</td>
+                <td><strong>Invited Talk 3</strong></td>
+                <td><strong>Reliable LLMs with Probabilistic Circuits</strong><br>
+                  <span class="muted">Antonio Vergari</span><br>
+                  <small>40-minute presentation + 5-minute Q&amp;A (08:30–09:15 London time)</small></td>
+              </tr>
+              <tr>
+                <td>17:15–17:35</td>
+                <td>Paper Presentation<br><small>S21203</small></td>
+                <td><strong>The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory</strong><br>
+                  <span class="muted">Qi Feng, Chris Ding, and Jicong Fan</span></td>
+              </tr>
+              <tr>
+                <td>17:35–17:55</td>
+                <td>Open Discussion</td>
+                <td>Tensor Methods and LLMs: Challenges and Opportunities</td>
+              </tr>
+              <tr>
+                <td>17:55–18:00</td>
+                <td>Closing Remarks</td>
+                <td>Workshop Organizers</td>
               </tr>
             </tbody>
           </table>
         </div>
+        <p class="muted">Invited talks: 45 minutes each, including Q&amp;A. Paper presentations: 20 minutes each, including Q&amp;A. Schedule subject to updates.</p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container"><small>All times are in {{TIMEZONE}}.</small></div>
+    <div class="container"><small>All times are in China Standard Time (UTC+8).</small></div>
   </footer>
 </body>
 </html>
