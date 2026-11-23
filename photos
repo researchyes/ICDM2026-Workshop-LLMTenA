@@ -1,1 +1,89 @@
 
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos · LLMTenA</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+
+    .photo-gallery img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .photo-gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="brand-mark">LT</div>
+        <div class="brand-text">
+          <div class="eyebrow">ICDM 2026 Workshop</div>
+          <strong>LLM for Tensor Analysis &amp; Tensor for LLM Advancement</strong>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="cfp.html">Call for Papers</a>
+        <a href="schedule.html">Program</a>
+        <a href="photos.html" aria-current="page">Photos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="photo-gallery">
+
+          <img src="images/photo1.jpg" alt="Workshop photo 1">
+          <img src="images/photo2.jpg" alt="Workshop photo 2">
+          <img src="images/photo3.jpg" alt="Workshop photo 3">
+          <img src="images/photo4.jpg" alt="Workshop photo 4">
+          <img src="images/photo5.jpg" alt="Workshop photo 5">
+          <img src="images/photo6.jpg" alt="Workshop photo 6">
+          <img src="images/photo7.jpg" alt="Workshop photo 7">
+          <img src="images/photo8.jpg" alt="Workshop photo 8">
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>LLMTenA Workshop · ICDM 2026</small>
+    </div>
+  </footer>
+
+</body>
+</html>
